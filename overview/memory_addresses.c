@@ -13,12 +13,16 @@ int main(int argc, char **argv)
         exit(1);
     }
 
+    int local_var = 1138;
+
     global_var = atoi(argv[1]);
     printf("global_var(%p) = %i\n", &global_var, global_var);
 
     sleep(atoi(argv[2]));
 
     printf("global_var(%p) = %i\n", &global_var, global_var);
+
+    printf("local_var is at %p, which is %lu\n", &local_var, (unsigned long)&local_var);
 
     return 0;
 }
