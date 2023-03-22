@@ -74,6 +74,6 @@ int main(int argc, char *argv[])
     double y = atof(argv[3]);
 
     double z = ops[op](x,y);
-    printf("%0.3lf\n",z);
+    printf("%g\n",z);
     return 0;
 }

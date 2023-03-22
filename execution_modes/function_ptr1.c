@@ -30,7 +30,7 @@ int main()
     printf("&fp=%p\n", &fp);
 
     // this would cause a compiler error:
-    //fp = my_func2;
+    fp = my_func2;
 
     return 0;
 }
