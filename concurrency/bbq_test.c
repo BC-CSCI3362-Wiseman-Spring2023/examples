@@ -8,7 +8,7 @@
 #define NUM_CONS 4
 
 // the "tasks" are the numbers 0 to NUM_TASKS-1
-#define NUM_TASKS 10
+#define NUM_TASKS 1000
 
 typedef struct _thread_args {
     bbq *q;
