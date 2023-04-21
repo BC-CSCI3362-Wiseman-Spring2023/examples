@@ -4,7 +4,7 @@ fn main() {
 
     let x = 1.1234;
     let y: f32 = 1.4321;
-    println!("x={x},y={y}");
+    println!("x={},y={}", x, y);
 
     // this line would be a compiler error:
     //let j: u32 = -1;
@@ -12,7 +12,7 @@ fn main() {
     let mut a = [1, 1, 2, 3, 5];
 
     a[0] = 0;
-    println!("a[0]={}",a[0]);
+    println!("a[0]={}", a[0]);
 
     // this line would be a compiler error:
     //a[5] = 0;

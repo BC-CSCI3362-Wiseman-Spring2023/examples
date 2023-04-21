@@ -1,5 +1,5 @@
 fn main() {
-    let val = 10;
+    let val = 0;
 
     if val < 0 {
         println!("negative!");
